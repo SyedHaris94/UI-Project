@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
+import { HuePicker} from 'react-color';
 import Toggle from 'material-ui/Toggle';
 import SideBar from './sidebar'
 
@@ -93,7 +94,8 @@ class Lighting extends Component {
                                 <p>Color Setting</p>on <div style={{
                                     marginLeft: 650,
                                 }}><Toggle /> </div>off
-                            </center>
+                     <HuePicker/>
+                                </center>
                     </div>
                 </MuiThemeProvider>
             </div>

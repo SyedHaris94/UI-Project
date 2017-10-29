@@ -16,42 +16,54 @@ class WakeUp extends Component {
             <div className="App">
 
                 <MuiThemeProvider>
-                    <div>
+                    <div className="App">
                         <SideBar />
 
                     </div>
-                    <div>
+                    <div className="App">
 
                         <center>
-                            <header> back to scenarios</header>
+                            <header style={{
+                                fontSize: 20
+                            }}> back to scenarios</header>
                             <img />
-                            <h3>Wake Up</h3>
-                            Start your day with this calm<br />
-                            scenario made for a perfect begining.
+                            <h3 style={{
+                                fontSize: 25
+                            }}>Wake Up</h3>
+                            <p>Start your day with this calm<br />
+                            scenario made for a perfect begining.</p>
                                 <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                                fontSize: 20
+                            }}>
                             <img src={'./logo.svg'} />
-                            Beside Lamp <b>OFF</b>
+                            <p>Beside Lamp <b>OFF</b></p>
                             <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 20
+                        }}>
                             <img />
-                            Now playing <b>GOOD MORNING</b>
+                            <p>Now playing <b>GOOD MORNING</b></p>
                             <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 20
+                        }}>
                             <img />
-                            Curtains are wide open
+                            <p>Curtains are wide open</p>
                             <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 20
+                        }}>
                             <img />
-                            Room temperature <b>20C</b>
+                            <p>Room temperature <b>20C</b></p>
                             <hr />
                         </center>
                     </div>

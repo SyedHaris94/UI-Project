@@ -16,43 +16,54 @@ class DeepFocus extends Component {
             <div className="App">
 
                 <MuiThemeProvider>
-                    <div>
+                    <div className="fonts">
                         <SideBar />
 
                     </div>
-                    <div>
+                    <div className="fonts">
 
                         <center>
-                            <header> back to scenarios</header>
+                            <header style={{
+                                fontSize: 20
+                            }}> back to scenarios</header>
                             <img />
-                            <h3>Deep Focus</h3>
-                            "What you stay focused on will grow"<br />
-                            -Roy T.Bennett.
+                            <h3 style={{
+                                fontSize: 25
+                            }}>Deep Focus</h3>
+                        <p>        "What you stay focused on will grow"<br />
+                            -Roy T.Bennett.</p>
                                 <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 25
+                        }}>
                             <img src={'./logo.svg'} />
-                            Ceiling Light <b>ON</b>
+                            <p>Ceiling Light <b>ON</b></p>
                             <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 25
+                        }} >
                             <img />
-                            Now playing <b>AMBIENT CHILL</b>
+                            <p>Now playing <b>AMBIENT CHILL</b></p>
                             <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 25
+                        }}>
                             <img />
-                            Curtains are shadded
+                            <p>Curtains are shadded</p>
                             <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 25
+                        }}>
                             <img />
-                            Room temperature <b>22C</b>
-                            <hr />
+                            <p>Room temperature <b>22C</b></p>
                         </center>
                     </div>
                 </MuiThemeProvider>

@@ -16,43 +16,54 @@ class PartyTime extends Component {
             <div className="App">
 
                 <MuiThemeProvider>
-                    <div>
-                        <SideBar />
+                <div className="fonts">
+                    <SideBar />
 
                     </div>
-                    <div>
+                <div className="fonts">
 
                         <center>
-                            <header> back to scenarios</header>
+                            <header style={{
+                            fontSize: 20
+                        }}> back to scenarios</header>
                             <img />
-                            <h3>Party Time</h3>
-                            choose this scenario when you're ready<br />
-                            for a jolly evening with friends.
+                            <h3 style={{
+                                fontSize: 25
+                            }}>Party Time</h3>
+                           <p> choose this scenario when you're ready<br />
+                            for a jolly evening with friends.</p>
                                 <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 25
+                        }} >
                             <img src={'./logo.svg'} />
-                            Disko Flashes <b>ON</b>
+                            <p>Disko Flashes <b>ON</b> </p>
                             <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 25
+                        }}>
                             <img />
-                            Now playing <b>DANCEFLOOR HITS</b>
+                            <p>Now playing <b>DANCEFLOOR HITS</b> </p>
                             <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 25
+                        }}>
                             <img />
-                            Curtains are shadded
+                          <p>  Curtains are shadded </p>
                             <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 25
+                        }}>
                             <img />
-                            Room temperature <b>20C</b>
-                            <hr />
+                            <p>Room temperature <b>20C</b> </p>
                         </center>
                     </div>
                 </MuiThemeProvider>

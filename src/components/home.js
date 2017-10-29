@@ -18,45 +18,64 @@ class Home extends Component {
       <div className="App">
       
         <MuiThemeProvider>
-          <div>
+          <div className="fonts">
             <SideBar/>          
             </div>
-            <div>
+            <div className="fonts">
               <center>
-                <h1>
-                  Welcome To Your <br/> Private Area Network
+              <h1 style={{
+                fontSize: 40
+              }}>
+                  Welcome to your
+                  <br/>
+                 Private Area Network
                 </h1>
 
 
-                <h2>
+                <h2 style={{
+                  fontSize: 30
+                }}>
                   at Hitech Dubai 2017
                 </h2>
               </center>
               
-              <center>
-                  <h3>CHOOSE YOUR SCENARIO</h3>
+              <center style={{
+                fontSize: 25
+              }}>
+                  <p>CHOOSE YOUR SCENARIO</p>
                   <hr/>
               </center>
 
-              <center>
+              <center style={{
+                fontSize: 25
+              }}>
                 <img src={'./logo.svg'} />
-                <h3>LIGHTING</h3>
+                <p >LIGHTING</p>
                 <hr />
               </center>
 
-              <center>
-                <h3>MUSIC</h3>
+              <center style={{
+                fontSize: 25
+              }}>
+              <img src={'./logo.svg'} />
+              <p >MUSIC</p>
                 <hr />
               </center>
 
-              <center>
-                <h3>CURTAINS</h3>
+              <center style={{
+                fontSize: 25
+              }}>
+              <img src={'./logo.svg'} />
+                <p>CURTAINS</p>
                 <hr />
               </center>
 
-              <center>
-                <h3>TEMPERATURE</h3>
-                <hr />
+              <center style={{
+                fontSize: 25
+              }}>
+              <img src={'./logo.svg'} />
+                <p>TEMPERATURE</p>
+                
               </center>
           </div>
         </MuiThemeProvider>

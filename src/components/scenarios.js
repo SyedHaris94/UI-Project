@@ -16,43 +16,58 @@ class Scenarios extends Component {
             <div className="App">
 
                 <MuiThemeProvider>
-                    <div>
+                    <div className="fonts">
                         <SideBar/>
                        
                     </div>
-                        <div>
+                    <div className="fonts">
 
                             <center>
-                                <header> back to menu</header>
+                            <header style={{
+                                fontSize: 20
+                            }}>back to menu</header>
                                 <img/>
-                                <h3>CHOOSE YOUR SCENARIO</h3>
-                                Set the different optiond for lightening <br/>
-                                to create your comfort atmosphere.
+                                <h3  style={{
+                                fontSize: 25
+                            }}>
+                                CHOOSE YOUR SCENARIO</h3>
+                                <p style={{
+                                    fontSize: 20
+                                }} >
+                                    Set the different optione for lightening <br/>
+                                to create your comfort atmosphere.</p>
                                 <hr />
                             </center>
 
-                            <center>
+                            <center style={{
+                                fontSize: 25
+                            }}>
                                 <img src={'./logo.svg'} />
-                                <h3>Wake Up</h3>
+                                <p>Wake Up</p>
                                 <hr />
                             </center>
 
-                            <center>
+                            <center style={{
+                                fontSize: 25
+                            }}>
                                 <img />
-                                <h3>Deep Focus</h3>
+                                <p>Deep Focus</p>
+                                <hr />
+                            </center >
+
+                            <center style={{
+                                fontSize: 25
+                            }}>
+                                <img />
+                                <p>Party Time</p>
                                 <hr />
                             </center>
 
-                            <center>
+                            <center style={{
+                                fontSize: 25
+                            }}>
                                 <img />
-                                <h3>Party Time</h3>
-                                <hr />
-                            </center>
-
-                            <center>
-                                <img />
-                                <h3>Sleep Tight</h3>
-                                <hr />
+                                <p>Sleep Tight</p>
                             </center>
                     </div>
                 </MuiThemeProvider>

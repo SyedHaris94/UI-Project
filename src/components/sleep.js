@@ -13,52 +13,61 @@ class SleepTight extends Component {
     render() {
         return (
 
-            <div className="App">
+     <div className="App">
 
                 <MuiThemeProvider>
-                    <div>
-                        <SideBar />
+                <div className="fonts">
+                    <SideBar />
 
                     </div>
-                    <div>
+                <div className="fonts">
 
                         <center>
-                            <header> back to scenarios</header>
+                            <header style={{
+                            fontSize: 20
+                        }}> back to scenarios</header>
                             <img />
-                            <h3>Sleep Tight</h3>
-                            "Sleep is that golden chain that ties health"<br />
-                            and our bodies together".<br/>
-                            -Thomas Dekker
+                            <h3 style={{
+                                fontSize: 25
+                            }}>Sleep Tight</h3>
+                           <p> "Sleep is that golden chain that ties health and our bodies together". <br/>
+                           -Thomas Dekker</p>
                                 <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 25
+                        }} >
                             <img src={'./logo.svg'} />
-                            Night Sky <b>ON</b>
+                            <p>Night sky <b>ON</b> </p>
                             <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 25
+                        }}>
                             <img />
-                            Music <b>OFF</b>
+                            <p>Music <b>OFF</b> </p>
                             <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 25
+                        }}>
                             <img />
-                            Curtains are closed
+                          <p>  Curtains are closed </p>
                             <hr />
                         </center>
 
-                        <center>
+                        <center style={{
+                            fontSize: 25
+                        }}>
                             <img />
-                            Room temperature <b>18C</b>
-                            <hr />
+                            <p>Room temperature <b>18C</b> </p>
                         </center>
                     </div>
                 </MuiThemeProvider>
-            </div>
-        );
+            </div>    );
     }
 }
 

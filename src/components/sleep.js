@@ -2,14 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-
-import Drawer from 'material-ui/Drawer';
-import MenuItem from 'material-ui/MenuItem';
-import AppBar from 'material-ui/AppBar';
 import SideBar from './sidebar'
 
 
-class SleepTight extends Component {
+class Sleep extends Component {
     render() {
         return (
 
@@ -71,5 +67,5 @@ class SleepTight extends Component {
     }
 }
 
-export default SleepTight;
+export default Sleep;
 

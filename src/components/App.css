@@ -37,3 +37,14 @@ body{
 .fonts{
   font-family:  calibri ;
 }
+
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #524d4d, #ffffff, #524d4d);
+  background-image: -moz-linear-gradient(left, #524d4d, #ffffff, #524d4d);
+  background-image: -ms-linear-gradient(left, #524d4d, #ffffff, #524d4d);
+  background-image: -o-linear-gradient(left, #524d4d, #ffffff, #524d4d); 
+
+
+}

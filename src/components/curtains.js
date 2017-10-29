@@ -5,7 +5,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import SideBar from './sidebar'
 
 
-class Scenarios extends Component {
+class Curtains extends Component {
     render() {
         return (
 
@@ -26,12 +26,11 @@ class Scenarios extends Component {
                                 <h3  style={{
                                 fontSize: 25
                             }}>
-                                CHOOSE YOUR SCENARIO</h3>
+                                CURTAINS</h3>
                                 <p style={{
                                     fontSize: 20
                                 }} >
-                                    Set the different optione for lightening <br/>
-                                to create your comfort atmosphere.</p>
+                                    Choose a position for the curtains.</p>
                                 <hr />
                             </center>
 
@@ -39,32 +38,10 @@ class Scenarios extends Component {
                                 fontSize: 25
                             }}>
                                 <img src={'./logo.svg'} />
-                                <p>Wake Up</p>
+                                <p></p>
                                 <hr />
                             </center>
 
-                            <center style={{
-                                fontSize: 25
-                            }}>
-                                <img />
-                                <p>Deep Focus</p>
-                                <hr />
-                            </center >
-
-                            <center style={{
-                                fontSize: 25
-                            }}>
-                                <img />
-                                <p>Party Time</p>
-                                <hr />
-                            </center>
-
-                            <center style={{
-                                fontSize: 25
-                            }}>
-                                <img />
-                                <p>Sleep Tight</p>
-                            </center>
                     </div>
                 </MuiThemeProvider>
             </div>
@@ -72,4 +49,4 @@ class Scenarios extends Component {
     }
 }
 
-export default Scenarios;
+export default Curtains;

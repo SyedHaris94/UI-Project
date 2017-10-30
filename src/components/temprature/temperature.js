@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import Back from 'react-icons/lib/fa/chevron-left'
+import Toggle from 'material-ui/Toggle';
+import SideBar from '../sidebar/sidebar';
 import '../App.css';
+import './style.css'
+import Plus from 'react-icons/lib/fa/plus-circle'
+import Minus from 'react-icons/lib/fa/minus-circle'
 
 import SideBar from '../sidebar/sidebar'
 

@@ -51,9 +51,7 @@ class Lighting extends Component {
                         <img src={require('../images/energybulb.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Desk lamp</p>
                         <p>on</p>
-                        <div style={{ marginLeft: 650 }}>
-                            <Toggle />
-                        </div>
+                        <Toggle style={styles.block} />
                         <p>off</p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
@@ -62,9 +60,7 @@ class Lighting extends Component {
                         <img src={require('../images/energybulb.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Disco flashes</p>
                         <p>on</p>
-
                         <Toggle style={styles.block} />
-
                         <p>off</p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
@@ -73,9 +69,8 @@ class Lighting extends Component {
                         <img src={require('../images/energybulb.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Night sky</p>
                         <p>on </p>
-
                         <Toggle style={styles.block} />
-                        off
+                        <p>off</p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 
@@ -83,9 +78,9 @@ class Lighting extends Component {
                         <img src={require('../images/energybulb.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Color Setting</p>
                         <p>on</p>
-                            <Toggle style={styles.block} />
+                        <Toggle style={styles.block} />
                         <p>off</p>
-                     <div  style={styles.colorpicker}>  
+                    <div  style={styles.colorpicker}>  
                       <HuePicker style={{width:200,height:50,borderRadius:50}}/>
                       </div>
                     </div>
@@ -113,11 +108,11 @@ const styles = {
         justifyContent: 'center',
         margin:'0px auto'
     },
+    
     block: {
-        maxWidth: 250,
-        marginLeft: 'auto',
-        marginRight: 'auto'
-
+    //    maxWidth: 250,
+        marginLeft: 650,
+      //  marginRight: 'auto'
     },
     colorpicker:{
         maxWidth: 250,

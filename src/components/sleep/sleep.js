@@ -40,7 +40,7 @@ class Sleep extends Component {
                     </div>
 
                     <div style={{ fontSize: 20 }}>
-                        <img src={require('../images/wideopen.png')} style={{ width: '250px', height: '150px' }} />
+                        <img src={require('../images/closed.png')} style={{ width: '250px', height: '150px' }} />
                         <p>  Curtains are closed </p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>

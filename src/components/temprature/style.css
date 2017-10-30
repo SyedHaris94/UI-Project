@@ -1,0 +1,7 @@
+
+hr.style-two {
+    border: 0;
+    width:10;
+    height: 3px;
+    background-image: linear-gradient(to right, black, white, #222);
+  }

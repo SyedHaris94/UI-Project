@@ -45,7 +45,7 @@ class WakeUp extends Component {
                     </div>
 
                     <div style={{ fontSize: 25, marginBottom: 150 }}>
-                        <img src={require('../images/lightou.png')} style={{ width: '250px', height: '150px' }} />
+                        <img src={require('../images/temp20.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Room temperature <b>20 &#176;C</b></p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>

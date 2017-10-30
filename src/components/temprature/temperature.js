@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import '../App.css';
 
-import SideBar from './sidebar'
+import SideBar from '../sidebar/sidebar'
 
 
 class Temperature extends Component {
@@ -11,10 +10,8 @@ class Temperature extends Component {
 
             <div className="App">
 
-                <MuiThemeProvider>
                     <div className="fonts">
                         <SideBar />
-
                     </div>
                     <div className="fonts">
 
@@ -59,7 +56,6 @@ class Temperature extends Component {
                             <hr />
                         </center>
                     </div>
-                </MuiThemeProvider>
             </div>
         );
     }

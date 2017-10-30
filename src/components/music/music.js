@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../App.css';
-
 import { Link } from 'react-router-dom';
 import SideBar from '../sidebar/sidebar';
 import Back from 'react-icons/lib/fa/chevron-left'
@@ -18,7 +17,7 @@ class Music extends Component {
                             <Back style={{ marginRight: 20 }} /> back to menu
                             </header>
                     </Link>
-                    <img src={require('../images/happyDancin.png')} style={{ width: '250px', height: '150px' }} />
+                    <img src={require('../images/happydancing.png')} style={{ width: '250px', height: '150px' }} />
                     <h3 style={{ fontSize: 35 }}>
                         MUSIC</h3>
                     <p style={{
@@ -26,9 +25,9 @@ class Music extends Component {
                     }} >
                         Sound control center <br />
                         Choose a playlist or manage a song</p>
-                    <hr className='style-two' style={{ width: '700px',marginBottom:50 }} />
+                    <hr className='style-two' style={{ width: '700px', marginBottom: 50 }} />
                     <video width="400" controls>
-                        <source src={require('../images/video.mp4')} type="video/mp4" />
+                        <source src={require('../images/video.mp4')} type="video/mp4" />}
                     </video>
 
 
@@ -55,7 +54,7 @@ const styles = {
         marginTop: 100,
         // justifyContent: 'center',
         // margin: '0px auto'
-        marginBottom:100
+        marginBottom: 100
     },
     block: {
         maxWidth: 250,

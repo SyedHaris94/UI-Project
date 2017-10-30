@@ -1,23 +1,17 @@
 import React, { Component } from 'react';
-import './App.css';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import '../App.css';
 
-import SideBar from './sidebar'
+import SideBar from '../sidebar/sidebar'
 
 
-class Curtains extends Component {
+class Music extends Component {
     render() {
         return (
-
             <div className="App">
-
-                <MuiThemeProvider>
                     <div className="fonts">
                         <SideBar/>
-                       
                     </div>
                     <div className="fonts">
-
                             <center>
                             <header style={{
                                 fontSize: 20
@@ -26,27 +20,18 @@ class Curtains extends Component {
                                 <h3  style={{
                                 fontSize: 25
                             }}>
-                                CURTAINS</h3>
+                                MUSIC</h3>
                                 <p style={{
                                     fontSize: 20
                                 }} >
-                                    Choose a position for the curtains.</p>
+                                Sound control center <br/>
+                            Choose a playlist or manage a song</p>
                                 <hr />
                             </center>
-
-                            <center style={{
-                                fontSize: 25
-                            }}>
-                                <img src={'./logo.svg'} />
-                                <p></p>
-                                <hr />
-                            </center>
-
                     </div>
-                </MuiThemeProvider>
             </div>
         );
     }
 }
 
-export default Curtains;
+export default Music;

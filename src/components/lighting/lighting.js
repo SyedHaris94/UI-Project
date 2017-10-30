@@ -21,7 +21,7 @@ class Lighting extends Component {
                             </header>
                         </Link>
                         <img src={require('../images/energybulb.png')} style={{ width: '250px', height: '150px' }} />
-                        <h3 style={{ fontSize: 25 }}>LIGHTNIG</h3>
+                        <h3 style={{  fontSize: 35 }}>LIGHTNIG</h3>
                         <p style={{ fontSize: 20 }} >
                             Set the different option for lightening <br />
                             to create your comfort atmosphere.

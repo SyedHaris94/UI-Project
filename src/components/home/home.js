@@ -21,7 +21,7 @@ class Home extends Component {
               Welcome to your<br />Private Area Network
            </h1>
             <h2 style={{
-              fontSize: '40px',
+              fontSize: '35px',
               fontWeight: 'lighter'
             }}
             > at Hitech Dubai 2017 </h2>
@@ -31,31 +31,31 @@ class Home extends Component {
 
             <div style={styles.section}>
               <img src={require('../images/lightou.png')} style={{ width: '250px', height: '150px' }} />
-              <p style={{ fontSize: '50px', fontWeight: 'lighter', color: 'white' }} >CHOOSE YOUR SCENARIO</p>
+              <p style={{ fontSize: '30px', fontWeight: 'lighter', color: 'white' }} >CHOOSE YOUR SCENARIO</p>
               <hr className='style-two' style={{ width: '700px' }} />
             </div>
 
             <div style={styles.section}>
               <img src={require('../images/lightou.png')} style={{ width: '250px', height: '150px' }} />
-              <p style={{ fontSize: '50px', fontWeight: 'lighter', color: 'white', color: 'white' }} >LIGHTING</p>
+              <p style={{ fontSize: '30px', fontWeight: 'lighter', color: 'white', color: 'white' }} >LIGHTING</p>
               <hr className='style-two' style={{ width: '700px' }} />
             </div>
 
             <div style={styles.section}>
               <img src={require('../images/lightou.png')} style={{ width: '250px', height: '150px' }} />
-              <p style={{ fontSize: '50px', fontWeight: 'lighter', color: 'white' }} >MUSIC</p>
+              <p style={{ fontSize: '30px', fontWeight: 'lighter', color: 'white' }} >MUSIC</p>
               <hr className='style-two' style={{ width: '700px' }} />
             </div>
 
             <div style={styles.section}>
               <img src={require('../images/lightou.png')} style={{ width: '250px', height: '150px' }} />
-              <p style={{ fontSize: '50px', fontWeight: 'lighter', color: 'white' }} >CURTAINS</p>
+              <p style={{ fontSize: '30px', fontWeight: 'lighter', color: 'white' }} >CURTAINS</p>
               <hr className='style-two' style={{ width: '700px' }} />
             </div>
             
             <div style={styles.section}>
               <img src={require('../images/lightou.png')} style={{ width: '250px', height: '150px' }} />
-              <p style={{ fontSize: '50px', fontWeight: 'lighter', color: 'white' }} >TEMPERATURE</p>
+              <p style={{ fontSize: '30px', fontWeight: 'lighter', color: 'white' }} >TEMPERATURE</p>
             </div>
           </div>
         </div>

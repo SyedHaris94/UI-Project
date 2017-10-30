@@ -22,8 +22,8 @@ class Temperature extends Component {
                              </header>
                         </Link>
                         <img src={require('../images/closed.png')} style={{ width: '250px', height: '150px' }} />
-                        <h3 style={{ fontSize: 25 }}>TEMPERATURE</h3>
-                        <p>Here you can set the room<br/>
+                        <h3 style={{ fontSize: 30 }}>TEMPERATURE</h3>
+                        <p style={{ fontSize: 20 }}>Here you can set the room<br/>
                         temperature and check humidity.</p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
@@ -40,9 +40,10 @@ class Temperature extends Component {
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 
-
                     <div style={{ fontSize: 25 }}>
-                        <img src={require('../images/energybulb.png')} style={{ width: '250px', height: '150px' }} />
+                        <Minus style={{ marginLeft: 105, marginTop: -100, fontSize: 35 }} /> 
+                        <img src={require('../images/temp22.png')} style={{ width: '250px', height: '150px' }} />
+                        <Plus style={{ marginRight: 105, marginTop: -100  ,fontSize: 35 }} />
                         <p>Set room temperature</p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>

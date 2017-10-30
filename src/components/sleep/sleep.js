@@ -19,27 +19,30 @@ class Sleep extends Component {
                     </header>
                         </Link>
                         <img src={require('../images/lightou.png')} style={{ width: '250px', height: '150px' }} />
-                        <h3 style={{ fontSize: 25 }}>Sleep Tight</h3>
-                        <p>"Sleep is that golden chain that ties health and our bodies together". <br />
+                        <h3 style={{ fontSize: 30 }}>Sleep Tight</h3>
+                        <p style={{
+                            fontSize: 20
+                        }} >
+                        "Sleep is that golden chain that ties health and our bodies together". <br />
                            -Thomas Dekker
                         </p>
                     </div>
                     <hr className='style-two' style={{ width: '700px' }} />
-                    <div style={{ fontSize: 20 }}>
+                    <div style={{ fontSize: 25 }}>
                         <img src={require('../images/lightou.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Night sky <b>ON</b> </p>
                             <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 
                     <div style={{
-                        fontSize: 20
+                        fontSize: 25
                     }}>
                         <img src={require('../images/goodmorning.png')} style={{ width: '250px', height: '150px' }} />
                             <p>Music <b>OFF</b> </p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 
-                    <div style={{ fontSize: 20 }}>
+                    <div style={{ fontSize: 25 }}>
                         <img src={require('../images/closed.png')} style={{ width: '250px', height: '150px' }} />
                         <p>  Curtains are closed </p>
                         <hr className='style-two' style={{ width: '700px' }} />

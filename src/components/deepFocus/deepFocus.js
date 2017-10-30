@@ -21,8 +21,11 @@ class DeepFocus extends Component {
                              </header>
                         </Link>
                         <img src={require('../images/lightou.png')} style={{ width: '250px', height: '150px' }} />
-                        <h3 style={{ fontSize: 25 }}>Deep Focus</h3>
-                        <p>"What you stay focused on will grow"<br />   -Roy T.Bennett.</p>
+                        <h3 style={{ fontSize: 30 }}>Deep Focus</h3>
+                        <p style={{
+                            fontSize: 20
+                        }} >
+                        "What you stay focused on will grow"<br />   -Roy T.Bennett.</p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 

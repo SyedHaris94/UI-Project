@@ -20,8 +20,11 @@ class Curtains extends Component {
                              </header>
                         </Link>
                         <img src={require('../images/closed.png')} style={{ width: '250px', height: '150px' }} />
-                        <h3 style={{ fontSize: 25 }}>CURTAINS</h3>
-                        <p>Choose a position for  the curtains.</p>
+                        <h3 style={{ fontSize: 30 }}>CURTAINS</h3>
+                        <p style={{
+                            fontSize: 20
+                        }} >
+                        Choose a position for  the curtains.</p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 

@@ -18,27 +18,27 @@ class WakeUp extends Component {
                     </header>
                         </Link>
                         <img src={require('../images/lightou.png')} style={{ width: '250px', height: '150px' }} />
-                        <h3 style={{ fontSize: 25 }}>Wake Up</h3>
-                        <p>Start your day with this calm<br />
+                        <h3 style={{ fontSize: 30 }}>Wake Up</h3>
+                        <p style={{ fontSize: 20 }}>Start your day with this calm<br />
                             scenario made for a perfect begining.
                         </p>
                     </div>
                     <hr className='style-two' style={{ width: '700px' }} />
-                    <div style={{ fontSize: 20 }}>
+                    <div style={{ fontSize: 25 }}>
                         <img src={require('../images/lightou.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Beside Lamp <b>OFF</b></p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 
                     <div style={{
-                        fontSize: 20
+                        fontSize: 25
                     }}>
                         <img src={require('../images/goodmorning.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Now playing <b>GOOD MORNING</b></p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 
-                    <div style={{ fontSize: 20 }}>
+                    <div style={{ fontSize: 25 }}>
                         <img src={require('../images/wideopen.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Curtains are wide open</p>
                         <hr className='style-two' style={{ width: '700px' }} />

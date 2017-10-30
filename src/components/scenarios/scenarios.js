@@ -22,11 +22,11 @@ class Scenarios extends Component {
 
                         <img src={require('../images/lightou.png')} style={{ width: '250px', height: '150px' }} />
                         <h3 style={{
-                            fontSize: 25
+                            fontSize: 30
                         }}>
                             CHOOSE YOUR SCENARIO</h3>
                         <p style={{
-                            fontSize: 25
+                            fontSize: 20
                         }} >
                             Set the different option for lightening <br />
                             to create your comfort atmosphere.</p>

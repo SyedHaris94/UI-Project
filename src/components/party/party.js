@@ -20,24 +20,27 @@ class Party extends Component {
                     </header>
                         </Link>
                         <img src={require('../images/disco.png')} style={{ width: '250px', height: '150px' }} />
-                        <h3 style={{ fontSize: 25 }}>Party Time</h3>
-                        <p>choose this scenario when you're ready<br />
+                        <h3 style={{  fontSize: 30 }}>Party Time</h3>
+                        <p style={{
+                            fontSize: 20
+                        }} >
+                        choose this scenario when you're ready<br />
                             for a jolly evening with friends.</p>
                     </div>
                     <hr className='style-two' style={{ width: '700px' }} />
-                    <div style={{ fontSize: 20 }}>
+                    <div style={{ fontSize: 25  }}>
                         <img src={require('../images/disco.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Disko Flashes <b>ON</b> </p>
                        <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 
-                    <div style={{fontSize: 20}}>
+                    <div style={{ fontSize: 25 }}>
                         <img src={require('../images/dancefloor.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Now playing <b>DANCEFLOOR HITS</b> </p>
                    <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 
-                    <div style={{ fontSize: 20 }}>
+                    <div style={{ fontSize: 25 }}>
                         <img src={require('../images/shaded.png')} style={{ width: '250px', height: '150px' }} />
                         <p>  Curtains are shadded </p>
                         <hr className='style-two' style={{ width: '700px' }} />

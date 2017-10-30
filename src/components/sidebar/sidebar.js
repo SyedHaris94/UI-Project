@@ -70,7 +70,7 @@ class SideBar extends Component {
                                 <Link to='/wakeup' style={{ textDecoration: 'none' }}> <ListItem primaryText="wake up" style={{ color: "white" }} /></Link>
                                 <Link to='/deepfocus' style={{ textDecoration: 'none' }}>  <ListItem primaryText="deep focus" style={{ color: "white" }} /></Link>
                                 <Link to='/party' style={{ textDecoration: 'none' }}>  <ListItem primaryText="party time" style={{ color: "white" }} /></Link>
-                                <Link to='' style={{ textDecoration: 'none' }}> <ListItem primaryText="tight" style={{ color: "white" }} /></Link>
+                                <Link to='/sleep' style={{ textDecoration: 'none' }}> <ListItem primaryText="tight" style={{ color: "white" }} /></Link>
                             </List>
                         </div>
 

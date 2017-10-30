@@ -11,12 +11,9 @@ import './style.css'
 class Lighting extends Component {
     render() {
         return (
-            <div className="App" style={styles.container}>
+            <div className="App" style={styles.container}>    
+                    <SideBar />    
                 <div className="fonts">
-                    <SideBar />
-                </div>
-                <div className="fonts">
-
                     <div style={styles.main}>
                         <Link to="/" style={{ textDecoration: 'none' }}>
                             <header style={styles.header}>

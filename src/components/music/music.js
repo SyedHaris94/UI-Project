@@ -12,22 +12,26 @@ class Music extends Component {
             <div className="App" style={styles.container}>
                 <SideBar />
                 <div className="fonts" style={styles.main}>
-                    <div>
-                        <header style={{
-                            fontSize: 20
-                        }}>back to menu</header>
-                        <img />
-                        <h3 style={{
-                            fontSize: 25
-                        }}>
-                            MUSIC</h3>
-                        <p style={{
-                            fontSize: 20
-                        }} >
-                            Sound control center <br />
-                            Choose a playlist or manage a song</p>
-                        <hr className='style-two' style={{ width: '700px' }} />
-                    </div>
+
+                    <Link to="/" style={{ textDecoration: 'none' }}>
+                        <header style={styles.header}>
+                            <Back style={{ marginRight: 20 }} /> back to menu
+                            </header>
+                    </Link>
+                    <img src={require('../images/happyDancin.png')} style={{ width: '250px', height: '150px' }} />
+                    <h3 style={{ fontSize: 35 }}>
+                        MUSIC</h3>
+                    <p style={{
+                        fontSize: 30
+                    }} >
+                        Sound control center <br />
+                        Choose a playlist or manage a song</p>
+                    <hr className='style-two' style={{ width: '700px',marginBottom:50 }} />
+                    <video width="400" controls>
+                        <source src={require('../images/video.mp4')} type="video/mp4" />
+                    </video>
+
+
                 </div>
             </div>
         );
@@ -40,6 +44,7 @@ const styles = {
         flexDirection: 'column',
         backgroundColor: 'black',
         // justifyContent: 'center'
+        minHeight: 700
     },
     header: {
         fontSize: 20,
@@ -48,9 +53,9 @@ const styles = {
     },
     main: {
         marginTop: 100,
-        flexDirection: 'column',
-        justifyContent: 'center',
-        margin: '0px auto'
+        // justifyContent: 'center',
+        // margin: '0px auto'
+        marginBottom:100
     },
     block: {
         maxWidth: 250,

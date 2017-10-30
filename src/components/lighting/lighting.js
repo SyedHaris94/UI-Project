@@ -109,9 +109,7 @@ const styles = {
     },
     main: {
         marginTop: 100,
-        flexDirection: 'column',
-        justifyContent: 'center',
-        margin:'0px auto'
+   
     },
     block: {
         maxWidth: 250,

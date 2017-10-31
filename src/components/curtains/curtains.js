@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Back from 'react-icons/lib/fa/chevron-left'
-import Toggle from 'material-ui/Toggle';
+import Back from 'react-icons/lib/fa/chevron-left';
+
 import SideBar from '../sidebar/sidebar';
+import ScrollButton from '../goto/goto';
 import '../App.css';
 import './style.css'
 
@@ -21,27 +22,22 @@ class Curtains extends Component {
                         </Link>
                         <img src={require('../images/closed.png')} style={{ width: '250px', height: '150px' }} />
                         <h3 style={{ fontSize: 30 }}>CURTAINS</h3>
-                        <p style={{
-                            fontSize: 20
-                        }} >
-                        Choose a position for  the curtains.</p>
+                        <p style={{ fontSize: 20 }} >
+                            Choose a position for  the curtains.</p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 
-                    <div style={ styles.images }>
+                    <div style={styles.images}>
                         <img src={require('../images/wideopen.png')} style={{ width: '250px', height: '150px' }} />
                         <img src={require('../images/shaded.png')} style={{ width: '250px', height: '150px' }} />
                         <img src={require('../images/closed.png')} style={{ width: '250px', height: '150px' }} />
-
                     </div>
-
-                    
+                    <ScrollButton scrollStepInPx="50" delayInMs="16.66" />
                 </div>
             </div>
         );
     }
 }
-
 
 const styles = {
     container: {
@@ -49,7 +45,6 @@ const styles = {
         flex: 1,
         flexDirection: 'column',
         backgroundColor: 'black',
-        // justifyContent: 'center'
     },
     header: {
         fontSize: 20,
@@ -63,23 +58,9 @@ const styles = {
         marginLeft: 'auto',
         marginRight: 'auto'
     },
-    section: {
-        // width:400,
-        justifyContent: 'center',
-        alignItems: 'center',
-        textAlign: 'center'
-    },
-    heading: {
-        textAlign: 'center',
-        // border:'2px solid white',
-        // width:400,
-        fontSize: '20px',
-        fontWeight: '1px',
-        // fontFamily: 'Arial, Helvetica, sans-serif',
-        color: 'white'
-    },
-    images:{
-        fontSize: '25px'
+    images: {
+        fontSize: '25px',
+        marginBottom: 100
     }
 }
 export default Curtains;

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Back from 'react-icons/lib/fa/chevron-left'
 import Toggle from 'material-ui/Toggle';
 import SideBar from '../sidebar/sidebar';
+import ScrollButton from '../goto/goto';
 import '../App.css';
 import './style.css'
 import Plus from 'react-icons/lib/fa/plus-circle'
@@ -47,6 +48,7 @@ class Temperature extends Component {
                         <p>Set room temperature</p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
+                    <ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
                 </div>
             </div>
         );
@@ -60,7 +62,6 @@ const styles = {
         flex: 1,
         flexDirection: 'column',
         backgroundColor: 'black',
-        // justifyContent: 'center'
     },
     header: {
         fontSize: 20,
@@ -73,21 +74,6 @@ const styles = {
         justifyContent: 'center',
         marginLeft: 'auto',
         marginRight: 'auto'
-    },
-    section: {
-        // width:400,
-        justifyContent: 'center',
-        alignItems: 'center',
-        textAlign: 'center'
-    },
-    heading: {
-        textAlign: 'center',
-        // border:'2px solid white',
-        // width:400,
-        fontSize: '20px',
-        fontWeight: '1px',
-        // fontFamily: 'Arial, Helvetica, sans-serif',
-        color: 'white'
     },
     images: {
         fontSize: '25px'

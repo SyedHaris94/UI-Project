@@ -26,6 +26,7 @@ class SideBar extends Component {
                 <div>
                     <AppBar style={{
                         backgroundColor: '#222',
+                      
                     }}
                         iconClassNameRight="muidocs-icon-navigation-expand-more"
                         onClick={() => this.handleToggle()}

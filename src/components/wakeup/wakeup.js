@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import '../App.css';
+
 import { Link } from 'react-router-dom';
 import SideBar from '../sidebar/sidebar';
-import Back from 'react-icons/lib/fa/chevron-left'
+import Back from 'react-icons/lib/fa/chevron-left';
+import ScrollButton from '../goto/goto';
 import './style.css';
+import '../App.css';
 
 class WakeUp extends Component {
     render() {
@@ -30,9 +32,7 @@ class WakeUp extends Component {
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 
-                    <div style={{
-                        fontSize: 25
-                    }}>
+                    <div style={{ fontSize: 25 }}>
                         <img src={require('../images/goodmorning.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Now playing <b>GOOD MORNING</b></p>
                         <hr className='style-two' style={{ width: '700px' }} />
@@ -44,11 +44,13 @@ class WakeUp extends Component {
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 
-                    <div style={{ fontSize: 25, marginBottom: 150 }}>
+                    <div style={{ fontSize: 25, marginBottom: 100 }}>
                         <img src={require('../images/temp20.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Room temperature <b>20 &#176;C</b></p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
+                    <ScrollButton scrollStepInPx="50" delayInMs="16.66" />
+
                 </div>
             </div>
         );
@@ -74,21 +76,7 @@ const styles = {
         marginLeft: 'auto',
         marginRight: 'auto'
     },
-    section: {
-        // width:400,
-        justifyContent: 'center',
-        alignItems: 'center',
-        textAlign: 'center'
-    },
-    heading: {
-        textAlign: 'center',
-        // border:'2px solid white',
-        // width:400,
-        fontSize: '20px',
-        fontWeight: '1px',
-        // fontFamily: 'Arial, Helvetica, sans-serif',
-        color: 'white'
-    }
+
 }
 
 export default WakeUp;

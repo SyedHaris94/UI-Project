@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import '../App.css';
 import { Link } from 'react-router-dom';
 import Back from 'react-icons/lib/fa/chevron-left'
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import AppBar from 'material-ui/AppBar';
-import SideBar from '../sidebar/sidebar'
+import SideBar from '../sidebar/sidebar';
 
-import './style.css'
+import ScrollButton from '../goto/goto';
+import './style.css';
+import '../App.css';
+
 class DeepFocus extends Component {
     render() {
         return (
@@ -25,7 +27,7 @@ class DeepFocus extends Component {
                         <p style={{
                             fontSize: 20
                         }} >
-                        "What you stay focused on will grow"<br />   -Roy T.Bennett.</p>
+                            "What you stay focused on will grow"<br />   -Roy T.Bennett.</p>
                         <hr className='style-two' style={{ width: '700px' }} />
                     </div>
 
@@ -51,6 +53,7 @@ class DeepFocus extends Component {
                         <img src={require('../images/temp22.png')} style={{ width: '250px', height: '150px' }} />
                         <p>Room temperature <b>22 &#176;C</b></p>
                     </div>
+                    <ScrollButton scrollStepInPx="50" delayInMs="16.66" />
                 </div>
             </div>
         );
@@ -62,7 +65,6 @@ const styles = {
         flex: 1,
         flexDirection: 'column',
         backgroundColor: 'black',
-        // justifyContent: 'center'
     },
     header: {
         fontSize: 20,
@@ -71,26 +73,9 @@ const styles = {
     },
     main: {
         marginTop: 100,
-        flexDirection: 'column',
-        justifyContent: 'center',
-        marginLeft: 'auto',
-        marginRight: 'auto'
+     
     },
-    section: {
-        // width:400,
-        justifyContent: 'center',
-        alignItems: 'center',
-        textAlign: 'center'
-    },
-    heading: {
-        textAlign: 'center',
-        // border:'2px solid white',
-        // width:400,
-        fontSize: '20px',
-        fontWeight: '1px',
-        // fontFamily: 'Arial, Helvetica, sans-serif',
-        color: 'white'
-    }
+    
 }
 export default DeepFocus;
 

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Back from 'react-icons/lib/fa/chevron-left'
 import Toggle from 'material-ui/Toggle';
 import SideBar from '../sidebar/sidebar';
+import ScrollButton from '../goto/goto';
 import '../App.css';
 import './style.css'
 
@@ -83,6 +84,7 @@ class Lighting extends Component {
                     <div  style={styles.colorpicker}>  
                       <HuePicker style={{width:200,height:50,borderRadius:50}}/>
                       </div>
+                      <ScrollButton scrollStepInPx="50" delayInMs="16.66" />
                     </div>
                 </div>
             </div>
@@ -95,7 +97,7 @@ const styles = {
         flex: 1,
         flexDirection: 'column',
         backgroundColor: 'black',
-        // justifyContent: 'center'
+   
     },
     header: {
         fontSize: 20,
@@ -104,15 +106,11 @@ const styles = {
     },
     main: {
         marginTop: 100,
-        flexDirection: 'column',
-        justifyContent: 'center',
-        margin:'0px auto'
     },
     
     block: {
-    //    maxWidth: 250,
-        marginLeft: 650,
-      //  marginRight: 'auto'
+       maxWidth: 250,
+        margin:'0px auto'
     },
     colorpicker:{
         maxWidth: 250,
@@ -120,21 +118,6 @@ const styles = {
        marginBottom:100
 
     },
-    section: {
-        // width:400,
-        justifyContent: 'center',
-        alignItems: 'center',
-        textAlign: 'center'
-    },
-    heading: {
-        textAlign: 'center',
-        // border:'2px solid white',
-        // width:400,
-        fontSize: '20px',
-        fontWeight: '1px',
-        // fontFamily: 'Arial, Helvetica, sans-serif',
-        color: 'white'
-    }
 }
 
 export default Lighting;
